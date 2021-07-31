@@ -1,0 +1,61 @@
+html,body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    min-height: 180px;
+    padding: 0;
+    width: 400px;
+    border: 2px solid whitesmoke;
+}
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    color:darkslateblue;
+    
+}
+img {
+    width: 30px;
+    border-radius: 50%;
+}
+.minimodal-head{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid whitesmoke;
+}
+.logo {
+    padding: 20px;
+}
+.logo-icon {
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+.modal-button{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content:space-evenly;
+    border-bottom: 1px solid whitesmoke;
+}
+.modal-button > button {
+    background-color: white;
+    color: black;
+    border: 2px solid darkslateblue;
+    font-size: 15px;
+}
+.modal-button > button:hover{
+    background-color: darkslateblue;
+    color: white;
+}
+.modal-disp{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content:space-evenly;
+    border-bottom: 1px solid whitesmoke;
+}
+.modal-disp > p {
+    border: 1px solid rgb(200, 200, 200);
+}
